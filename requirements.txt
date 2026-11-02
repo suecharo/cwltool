@@ -12,7 +12,7 @@ psutil>=5.6.6
 typing-extensions
 coloredlogs
 pydot>=1.4.1
-argcomplete>=1.12.0
+argcomplete>=3.7.2
 pyparsing != 3.0.2  # breaks --print-dot (pydot) https://github.com/pyparsing/pyparsing/issues/319
 pyparsing < 3;python_version<='3.6'  # breaks --print-dot
 cwl-utils>=0.19
